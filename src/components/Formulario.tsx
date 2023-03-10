@@ -1,7 +1,9 @@
 import React, { useState, useRef } from 'react'
+import styled from 'styled-components';
 import { useAdicionarParticipante } from '../state/hook/useAdicionarParticipante';
 import { useMensagemDeErro } from '../state/hook/useMensagemDeErro';
 import { Card } from './Card';
+import { AlertaErro, GrupoInputBtn } from './Formulario.style';
 
 export default function Formulario() {
 
@@ -23,15 +25,18 @@ export default function Formulario() {
   return (
     <Card>
       <form onSubmit={adicionarParticipante}>
-        <input
-          ref={inputRef}
-          value={nome}
-          onChange={event => setNome(event.target.value)}
-          type="text"
-          placeholder="Insira os nomes dos participantes"
-        />
-        <button disabled={!nome}>Adicionar</button>
-        {mensagemDeErro && <p role='alert'>{mensagemDeErro}</p>}
+        <GrupoInputBtn>
+          <input
+            ref={inputRef}
+            value={nome}
+            onChange={event => setNome(event.target.value)}
+            type="text"
+            placeholder="Insira os nomes dos participantes"
+          />
+          <button disabled={!nome}>Adicionar</button>
+        </GrupoInputBtn>
+        {mensagemDeErro && 
+          <AlertaErro role='alert'>{mensagemDeErro}</AlertaErro>}
       </form>
     </Card>
   )

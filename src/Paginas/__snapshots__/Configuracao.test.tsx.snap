@@ -6,16 +6,20 @@ exports[`a pagina de configuracao deve ser renderizada corretamente 1`] = `
     class="sc-beySbM bLtAoI"
   >
     <form>
-      <input
-        placeholder="Insira os nomes dos participantes"
-        type="text"
-        value=""
-      />
-      <button
-        disabled=""
+      <div
+        class="sc-guDLRT lgwcrq"
       >
-        Adicionar
-      </button>
+        <input
+          placeholder="Insira os nomes dos participantes"
+          type="text"
+          value=""
+        />
+        <button
+          disabled=""
+        >
+          Adicionar
+        </button>
+      </div>
       
     </form>
   </div>
