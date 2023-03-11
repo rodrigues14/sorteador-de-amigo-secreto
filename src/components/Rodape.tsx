@@ -10,7 +10,7 @@ export const Rodape = () => {
 
   const iniciar = () => {
     sortear();
-    navegarPara('/sorteios');
+    navegarPara('/sorteio');
   }
   return (
     <RodapeConfig>

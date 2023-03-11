@@ -11,6 +11,9 @@ const CardStyled = styled.div`
   flex: 1;
   margin-top: -32px;
   justify-content: center;
+  @media screen and (max-width: 500px) {
+    padding: 80px 20px;
+    }
 `;
 
 export const Card: React.FC = ({ children }) => {

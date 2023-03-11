@@ -17,4 +17,11 @@ export const GlobalStyle = createGlobalStyle`
     flex-direction: column;
     min-height: 100vh;
   }
+  h2 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 36px;
+    color: #4B69FD;
+    text-align: center;
+  }
 `;

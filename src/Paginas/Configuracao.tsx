@@ -2,7 +2,7 @@ import { Card } from "../components/Card"
 import Formulario from "../components/Formulario"
 import { ListaDeParticipantes } from "../components/ListaDeParticipantes"
 import { Rodape } from "../components/Rodape"
-import { SectionConfig } from "./Confirmacao.style"
+import { SectionConfig } from "./Configuracao.style"
 
 const Configuracao = () => {
   return (
