@@ -5,31 +5,44 @@ exports[`a pagina de configuracao deve ser renderizada corretamente 1`] = `
   <div
     class="sc-beySbM bLtAoI"
   >
-    <form>
-      <div
-        class="sc-guDLRT lgwcrq"
+    <section
+      class="sc-eDLJxc dBqVoJ"
+    >
+      <h2>
+        Vamos começar!
+      </h2>
+      <form>
+        <div
+          class="sc-guDLRT lgwcrq"
+        >
+          <input
+            placeholder="Insira os nomes dos participantes"
+            type="text"
+            value=""
+          />
+          <button
+            disabled=""
+          >
+            Adicionar
+          </button>
+        </div>
+        
+      </form>
+      <ul />
+      <footer
+        class="sc-hLQRIN CYAgC"
       >
-        <input
-          placeholder="Insira os nomes dos participantes"
-          type="text"
-          value=""
-        />
         <button
           disabled=""
         >
-          Adicionar
+          Iniciar brincadeira
         </button>
-      </div>
-      
-    </form>
+        <img
+          alt="Sacolas de compras"
+          src="/images/sacolas.png"
+        />
+      </footer>
+    </section>
   </div>
-  <ul />
-  <footer>
-    <button
-      disabled=""
-    >
-      Iniciar brincadeira
-    </button>
-  </footer>
 </div>
 `;
