@@ -1,5 +1,4 @@
 import { useState } from "react"
-import styled from "styled-components";
 import { Card } from "../components/Card";
 import { useListaDeParticipantes } from "../state/hook/useListaDeParticipantes"
 import { useResultadoSorteio } from "../state/hook/useResultadoSorteio";
