@@ -61,7 +61,7 @@ describe('quando existem participantes suficientes', () => {
     const botao = screen.getByRole('button')
     fireEvent.click(botao)
     expect(mockNavegacao).toHaveBeenCalledTimes(1)
-    expect(mockNavegacao).toHaveBeenCalledWith('/sorteios')
+    expect(mockNavegacao).toHaveBeenCalledWith('/sorteio')
     expect(mockSorteio).toHaveBeenCalledTimes(1)
   })
 })
