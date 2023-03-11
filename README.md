@@ -10,6 +10,7 @@ Este projeto foi desenvolvido usando as seguintes tecnologias:
 - React
 - TypeScript
 - Styled-components
+- React Testing Library
 - Jest
 - Figma
 - Git
