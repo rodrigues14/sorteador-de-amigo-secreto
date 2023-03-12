@@ -10,6 +10,7 @@ Este projeto foi desenvolvido usando as seguintes tecnologias:
 - React
 - TypeScript
 - Styled-components
+- Recoil
 - React Testing Library
 - Jest
 - Figma
@@ -30,7 +31,7 @@ O sorteador de amigos secretos apresenta as seguintes funcionalidades:
 > - Em seguida, execute o comando `npm start` para iniciar o servidor de desenvolvimento.  
 > - Abra o navegador e acesse http://localhost:3000.  
 
-## ⚙ Executar os testes que desenvolvi
+## 🧪 Executar os testes que desenvolvi
 > - Após instalar as dependências, abra o terminal e execute o comando `npm test`.
 > - Logo depois, aparecerá um menu de opções, digite `a` para rodar todos os testes.
 
